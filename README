@@ -29,6 +29,10 @@ For FreeBSD systems, include an extra parameter like so:
 
   make PLATFORM=freebsd
 
+For macOS systems, use:
+
+  make PLATFORM=darwin
+
 EXAMPLES
 --------
 

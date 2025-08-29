@@ -23,7 +23,7 @@ enum {
 
 typedef unsigned char uchar;
 //typedef unsigned short ushort;
-#ifdef __FreeBSD__
+#if defined(__FreeBSD__) || defined(__APPLE__)
 typedef unsigned long ulong;
 #else
 //typedef unsigned long ulong;

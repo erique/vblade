@@ -1,6 +1,7 @@
 # makefile for vblade
 
 # see README for others
+# PLATFORM can be: linux, freebsd, darwin
 PLATFORM=linux
 
 prefix = /usr
